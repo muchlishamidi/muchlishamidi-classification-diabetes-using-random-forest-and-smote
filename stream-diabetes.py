@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-with open('model (6).sav', 'rb') as file:
+with open('model_Final.sav', 'rb') as file:
     diabetes_model = pickle.load(file)
 
 #list key untuk semua input
